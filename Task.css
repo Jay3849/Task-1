@@ -1,0 +1,80 @@
+body {
+  background-color: #f5f6f7;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 90%;
+}
+
+.left {
+  flex: 1;
+  padding: 5rem;
+}
+
+.tittle {
+  font-family: MuseoModerno;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  /* text-underline-position: from-font;
+text-decoration-skip-ink: none; */
+}
+
+.dis {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-underline-position: from-font;
+  color: #84849a;
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+}
+.right {
+  flex: 1.25;
+  padding-top: 10px;
+}
+.rcontainer {
+  margin-top: 10rem;
+}
+.rcontainer > div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  /* width: 100px; */
+}
+.rcontainer > div > div {
+  background-color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  /* gap: 10px; */
+  border-radius: 10px;
+  padding: 10px;
+  width: calc(100% / 5);
+}
+.rcontainer > div>div:nth-child(2),.rcontainer > div>div:nth-child(4) {
+  min-height: 150px;
+  margin-bottom: 10px;
+}
+.image1 {
+  
+}
+img {
+  margin-top: 10px;
+  height: 100%;
+  
+}
+
+.dsc,
+p {
+  color: #84849a;
+}
+.dsc,h1{
+          color: black;
+}
